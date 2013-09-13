@@ -3,7 +3,7 @@ NeoPixel-KnightRider
 
 A highly configurable Knight Rider (larson display) routine for your [AdaFruit NeoPixel](http://www.adafruit.com/products/1138) (WS2812 RGB LED) using the Arduino.
 
-[Youtube Demo Video](http://youtu.be/JN3MUQ8C1BM)
+[Youtube Demo Video](http://youtu.be/4fjDWSFsv8o)
 
 ## Requirements
 1. An [Arduino](http://www.arduino.cc) Development board.
