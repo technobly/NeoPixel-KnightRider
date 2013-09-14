@@ -3,7 +3,7 @@ NeoPixel-KnightRider
 
 A highly configurable Knight Rider (larson display) routine for your [AdaFruit NeoPixel](http://www.adafruit.com/products/1138) (WS2812 RGB LED) using the Arduino.
 
-![trail effect](https://raw.github.com/DubbyTT/Auto-Awexomer/master/trail_effect.jpg)
+![trail effect](https://raw.github.com/DubbyTT/NeoPixel-KnightRider/master/trail_effect.jpg)
 
 [Youtube Demo Video](http://youtu.be/4fjDWSFsv8o)
 
