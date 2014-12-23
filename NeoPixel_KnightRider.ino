@@ -84,22 +84,24 @@ void knightRider(uint16_t cycles, uint16_t speed, uint8_t width, uint32_t color)
   // Larson time baby!
   for(int i = 0; i < cycles; i++){
     for (int count = 1; count<NUM_PIXELS; count++) {
-      strip.setPixelColor(count, color); strip.show();
-      delay(speed);
+      strip.setPixelColor(count, color);
       old_val[count] = color;
       for(int x = count; x>0; x--) {
         old_val[x-1] = dimColor(old_val[x-1], width);
-        strip.setPixelColor(x-1, old_val[x-1]); strip.show();
+        strip.setPixelColor(x-1, old_val[x-1]); 
       }
+      strip.show();
+      delay(speed);
     }
     for (int count = NUM_PIXELS-1; count>=0; count--) {
-      strip.setPixelColor(count, color); strip.show();
-      delay(speed);
+      strip.setPixelColor(count, color);
       old_val[count] = color;
       for(int x = count; x<=NUM_PIXELS ;x++) {
         old_val[x-1] = dimColor(old_val[x-1], width);
-        strip.setPixelColor(x+1, old_val[x+1]); strip.show();
+        strip.setPixelColor(x+1, old_val[x+1]);
       }
+      strip.show();
+      delay(speed);
     }
   }
 }
